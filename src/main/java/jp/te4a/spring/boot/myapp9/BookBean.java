@@ -9,7 +9,7 @@ import javax.persistence.*;
 
 
 @Entity
-@Table(name = "books")
+@Table(name = "book")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -19,7 +19,7 @@ public class BookBean {
 	Integer id;
 	@Column(nullable = false)
 	String title;
-	String writter;
+	String writer;
 	String publisher;
 	Integer price;
 }
